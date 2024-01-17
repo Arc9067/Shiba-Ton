@@ -1,6 +1,7 @@
 import React from "react";
 import footerLogo from "../assets/logo1.png";
 import gecko from "../assets/gecko.png";
+import ton from "../assets/ton.png";
 
 const Footer = () => {
   return (
@@ -92,6 +93,12 @@ const Footer = () => {
             className=""
           >
             <img src={gecko} alt="" className="w-[3rem]" />
+          </a>
+                   <a
+            href="https://tonscan.org/address/EQBFwbvCKCUlCgND1aAV6i-6m19nQJ0Wol-gyzUw1K-vxE_b"
+            className=""
+          >
+            <img src={ton} alt="" className="w-[5rem]" />
           </a>
         </div>
       </div>
